@@ -164,7 +164,7 @@ while loop == 3:
 			loop = 11
 		if cave_inp.lower() == ("scale staircase"):
 			loop = 11
-		if cave_inp.lower() == ("suicide"):
+		elif cave_inp.lower() == ("suicide"):
 			print("---------------------------------------------------------")
 			print("You throw yourself down the staircase as an attempt at suicide. You die.")
 			print("---------------------------------------------------------")
