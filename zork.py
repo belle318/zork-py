@@ -142,7 +142,7 @@ while loop == 3:
 			print("You are in a tiny cave with a dark, forbidding staircase leading down.")
 			print("There is a skeleton of a human male in one corner.")
 			cave_inp = input("What do you do? ")
-		if cave_inp.lower() == ("descend staircase"):
+		elif cave_inp.lower() == ("descend staircase"):
 			loop = 11
 		if cave_inp.lower() == ("take skeleton"):
 			print("---------------------------------------------------------")
@@ -160,9 +160,9 @@ while loop == 3:
 			print("---------------------------------------------------------")
 			print("I have two questions: Why and With What?")
 			loop = 10
-		if cave_inp.lower() == ("go down staircase"):
+		elif cave_inp.lower() == ("go down staircase"):
 			loop = 11
-		if cave_inp.lower() == ("scale staircase"):
+		elif cave_inp.lower() == ("scale staircase"):
 			loop = 11
 		elif cave_inp.lower() == ("suicide"):
 			print("---------------------------------------------------------")
